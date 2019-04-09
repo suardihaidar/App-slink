@@ -5,8 +5,8 @@ import {
     createStackNavigator
 } from 'react-navigation';
 
-import Login from './screens/Login'
-import Dashboard from './screens/Dashboard'
+import Login from './views/Login'
+import Dashboard from './views/Dashboard'
 
 const appNavigator = createStackNavigator({
     login : { screen : Login, navigationOptions:{header:null}},
