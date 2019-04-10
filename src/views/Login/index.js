@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import { Alert, Text, View, ImageBackground, Image, TextInput, TouchableOpacity} from 'react-native'
-import logo from '../component/images/logo.png'
+import logo from '../../component/images/logo.png'
 import Icon from 'react-native-vector-icons/Ionicons.js'
-import styles from '../component/styles'
+import styles from './styles'
 
 export default class Login extends Component {
   constructor(props) {
