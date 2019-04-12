@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { Alert, Text, View, ImageBackground, Image, TextInput, TouchableOpacity} from 'react-native'
-import logo from '../../component/images/logo.png'
+import Asset from '../../assets'
 import Icon from 'react-native-vector-icons/Ionicons.js'
 import styles from './styles'
 
@@ -42,7 +42,7 @@ export default class Login extends Component {
     return (
       <ImageBackground style={styles.backgroundContainer}>
         <View style={styles.logoContainer}>
-          <Image source={logo} style={styles.logo} />
+          <Image source={Asset.logo} style={styles.logo} />
           <Text style={styles.logoText}>URL Shortener</Text>
         </View>
 
