@@ -22,4 +22,4 @@ $ react-native run-ios //for Ios
 
 # Build With
 
-[React Native] - A framework for building native apps using Javascript and React
+[React Native](https://facebook.github.io/react-native/) - A framework for building native apps using Javascript and React
