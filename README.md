@@ -6,9 +6,9 @@ Slink is application for creating a short url from a long url kinda similar to B
 
 ## Getting Started
 
-* Install the dependencies and devDependencies.
+* Install the dependencies.
 ```sh
-$ npm install
+$ yarn
 ```
 * Run the metro bundler
 ```sh
