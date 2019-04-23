@@ -4,22 +4,20 @@
 
 Slink is application for creating a short url from a long url kinda similar to Bitly.
 
-# Getting Started
+## Getting Started
 
-- Install the dependencies and devDependencies.
+* Install the dependencies and devDependencies.
 ```sh
 $ npm install
 ```
-- Run the metro bundler
+* Run the metro bundler
 ```sh
 $ react-native start
 ```
-- Build Application
-```sh
-$ react-native run-android //for Android
-$ react-native run-ios //for Ios
-```
+* Build Application
+IOS : `$ react-native run-android`
+Android : `$ react-native run-ios //for Ios`
 
-# Build With
+## Build With
 
 [React Native](https://facebook.github.io/react-native/) - A framework for building native apps using Javascript and React
