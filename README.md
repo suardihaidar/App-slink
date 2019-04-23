@@ -14,9 +14,9 @@ $ npm install
 ```sh
 $ react-native start
 ```
-* Build Application
-IOS : `$ react-native run-android`
-Android : `$ react-native run-ios //for Ios`
+* Build Application, 
+IOS : `$ react-native run-android`, 
+Android : `$ react-native run-ios`
 
 ## Build With
 
