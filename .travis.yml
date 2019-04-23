@@ -1,5 +1,4 @@
-  language: node_js
-  node_js:
-  -'10'
-  install:
-  -npm install
+  - stage: Test
+    language: node_js
+    node_js: '10'
+    install: npm install
