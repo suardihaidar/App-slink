@@ -8,15 +8,15 @@ Slink is application for creating a short url from a long url kinda similar to B
 
 * Install the dependencies.
 ```sh
-$ yarn
+yarn
 ```
 * Run the metro bundler
 ```sh
-$ react-native start
+react-native start
 ```
 * Build Application, 
-IOS : `$ react-native run-android`, 
-Android : `$ react-native run-ios`
+IOS : `react-native run-android`, 
+Android : `react-native run-ios`
 
 ## Build With
 
