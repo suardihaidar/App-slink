@@ -3,7 +3,7 @@ import { Text, Clipboard, View, AsyncStorage, Linking} from "react-native"
 import { Header, Button, Input } from "react-native-elements"
 import shortid from 'shortid'
 
-export default class Dashboard extends Component {
+export default class Home extends Component {
   constructor (props) {
     super(props)
     this.state = { 
