@@ -27,7 +27,7 @@ jest.mock('NativeModules', () => ({
   PlatformConstants: {
     forceTouchAvailable: false,
   },
-}))
+}), '../node_modules/react-native/Libraries/Components/StatusBar/StatusBar', () => 'StatusBar')
 
 it('renders correctly', () => {
   renderer.create(<App />);
